@@ -1,0 +1,20 @@
+### Create a key-value pair
+POST http://localhost:8080/create?key=mykey
+Content-Type: application/x-www-form-urlencoded
+
+value=myvalue112233
+
+
+### Read a key-value pair
+GET http://localhost:8080/read/mykey
+
+
+### Update a key-value pair
+PUT http://localhost:8080/update/mykey
+Content-Type: application/x-www-form-urlencoded
+
+value=mynewvalue777777
+
+
+### Delete a key-value pair
+DELETE http://localhost:8080/delete/mykey
