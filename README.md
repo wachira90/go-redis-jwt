@@ -2,7 +2,7 @@
 
 
 ```sh
-mkdir go-redis-jwt
+git clone https://github.com/wachira90/go-redis-jwt.git
 
 cd go-redis-jwt
 
